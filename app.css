@@ -1,0 +1,61 @@
+body{
+    touch-action:manipulation;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    margin:0;
+}
+h1{
+    color:white;
+    font-size:10px;
+}
+.calc{
+    width:240px;
+}
+.buttons{
+    height:290px;
+    width:240px;
+}
+button{   
+    margin:0px 3px 6px 3px;
+    height:50px;
+    float:left;
+    font-size:25px;
+    border-radius:25px;
+    border: none;    
+}
+.lightgray{/*AC CE %*/
+    color:white;
+    background-color:rgb(80, 80, 82);
+    width:50px; 
+}
+.gray{/*0~9 and .*/
+    background-color:#ebedec; 
+    width:50px; 
+}
+.green{/*operator and = */
+    color:rgb(0, 0, 0);
+    background-color:#a2a9af;
+    width:50px; 
+}
+.zero{
+    width:106px;
+    outline: none;
+}
+.display{
+    text-align:right;
+    color:white;
+    font-size:45px;
+    padding-right:10px;
+    width:220px;
+    line-height:1;  
+}
+#resultExtension{
+    height:40px;
+}
+*{
+    background-color:#3d3d3d; 
+}
+
+
